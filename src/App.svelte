@@ -1,7 +1,7 @@
 <script>
   import { onMount } from "svelte";
-  import BridgeNotify from "bridge-svelte";
-  import { notify } from "bridge-svelte";
+  import BridgeNotify from "bridge-notification-svelte";
+  import { notify } from "bridge-notification-svelte";
   let type = "success";
   let duration = 3000;
   let message = "Bridge Notification is Awesome 😍";
